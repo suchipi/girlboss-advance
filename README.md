@@ -33,6 +33,7 @@ progress so far:
 - [ ] little UI that shows connected players. maybe a chat window.
 - [ ] forward gamepad input. easiest approach might be a separate websocket server (rather than trying to fit it into the RFB protocol).
 - [ ] nice UI for assigning controllers to slots, ala steam remote play.
+- [ ] put page behind HTTP basic auth
 - [ ] automatically set up and open the emulator when the x session starts, instead of needing to open it manually.
   - this includes resizing the session, making things fullscreen (or at least hiding window decorations), etc.
 - [ ] maybe? only send the relevant section of the screen to the relevant users. mostly as a bandwidth/throughput concern.

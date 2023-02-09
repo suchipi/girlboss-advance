@@ -6,3 +6,7 @@ RUN apt-get update && \
     sakura \
     mednafen \
     mednaffe
+
+RUN echo 'export PATH="$PATH:/usr/games"' > /root/.bashrc
+
+CMD sakura --execute "bash"

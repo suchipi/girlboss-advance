@@ -1,5 +1,7 @@
 FROM suchipi/novnc:ubuntu-22.04
 
+# testing with mednafen for now because it's easy to install and doesn't need wine.
+# but eventually I'll switch to no$gba.
 RUN apt-get update && \
   apt-get upgrade -y && \
   apt-get install -y \

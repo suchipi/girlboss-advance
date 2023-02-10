@@ -29,7 +29,8 @@ progress so far:
 - [x] make it so people don't have to enter an address to connect to the server (aside from the address in the browser URL bar)
 - [x] prove anecdotally that with tuning of compression/quality settings, vnc is a sufficient transport mechanism for low-latency remote GBA gameplay.
   - a friend about 1000 miles away was able to play kirby some and said with the compression and quality dialed in, it was usable
-- [ ] get sound working, via [replit rfbproxy](https://github.com/replit/rfbproxy) and corresponding [noVNC fork](https://github.com/novnc/noVNC/pull/1525)
+- ~~[ ] get sound working, via [replit rfbproxy](https://github.com/replit/rfbproxy) and corresponding [noVNC fork](https://github.com/novnc/noVNC/pull/1525)~~
+- [ ] get sound working, via approach outlined in [this comment](https://github.com/novnc/noVNC/issues/302#issuecomment-1225449899)
 - [ ] little UI that shows connected players. maybe a chat window.
 - [ ] forward gamepad input. easiest approach might be a separate websocket server (rather than trying to fit it into the RFB protocol).
 - [ ] nice UI for assigning controllers to slots, ala steam remote play.
